@@ -12,7 +12,7 @@ public class _02WorkingOrSleeping {
        if(t >= 0 && t <= 24 && t >= 9 && t <=18 ){
            System.out.println("Im at work.");
        }
-       if(t >= 0 && t <= 24 && t <= 9 && t >= 18 ) {
+       if(t >= 0 && t <= 24 && t <= 8 && t >= 19 ) {
            System.out.println("Im sleeping.");
        }
     }
