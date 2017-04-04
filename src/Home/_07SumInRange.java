@@ -1,4 +1,5 @@
 package Home;
+
 import java.util.Scanner;
 
 /**
@@ -12,10 +13,9 @@ public class _07SumInRange {
         int n2 = sc.nextInt();
         int sum = n1 + n2;
 
-        if (sum >= 11 && sum <= 19 ){
-            System.out.println("Sum in range of 11 to 19 : "+sum);
-        }
-        else {
+        if (sum >= 11 && sum <= 19) {
+            System.out.println("Sum in range of 11 to 19 : " + sum);
+        } else {
             System.out.println("Sum isn't in range. ");
         }
     }
